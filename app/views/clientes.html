@@ -1,0 +1,11 @@
+<h2 ng-bind="clientesCtrl.titulo"></h2>
+Página de clientes aqui
+
+<senai-grid id="gridClientes"
+    provider="clientesCtrl.listaClientes" 
+    columns="clientesCtrl.gridColumns"
+    disable-edit="true"
+    enable-selection="true"
+    row-class="info">
+
+</senai-grid>

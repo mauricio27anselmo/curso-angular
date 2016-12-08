@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@media screen and (max-width: 768px) {
+    /*.container {
+        background-color: #00b3ee;
+    }*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*.container {
+        background-color: #dddddd;
+    }*/
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxpQkFBaUI7O0FBRWpCO0lBQ0k7O09BRUc7Q0FDTjs7QUFFRDtJQUNJOztPQUVHO0NBQ04iLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGNoYXJzZXQgXCJ1dGYtOFwiO1xyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcclxuICAgIC8qLmNvbnRhaW5lciB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwYjNlZTtcclxuICAgIH0qL1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCkgYW5kIChtYXgtd2lkdGg6IDk5MnB4KSB7XHJcbiAgICAvKi5jb250YWluZXIge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkZGRkZGQ7XHJcbiAgICB9Ki9cclxufSJdfQ== */

@@ -1,0 +1,21 @@
+<div class="col-xs-{{::colspanXs}} col-sm-{{::colspanSm}} 
+            col-md-{{::colspanMd}} col-lg-{{::colspanLg}}"
+            ng-form="inputTextForm">
+    <div class="form-group" 
+        ng-class="{'has-error': inputTextForm[inputName].$dirty}">
+        <label>
+            <ng-transclude ng-transclude-slot="labelSlot"></ng-transclude>
+        </label>
+
+        <input type="text" class="form-control" 
+            name="{{::inputName}}" placeholder="{{::placeholder}}" 
+            ng-model="ngModel" ng-required="ngRequired" ng-change="onInputChange()"
+            ng-minlength="{{::minlength}}" ng-maxlength="{{::maxlength}}">
+
+        <ng-transclude ng-transclude-slot="messageSlot"></ng-transclude>
+
+        <div class="help-block" ng-messages="inputTextForm[inputName].$error">
+            <div ng-messages-include="app/templates/mensagens-erro.html"></div>
+        </div>
+    </div>
+</div>
